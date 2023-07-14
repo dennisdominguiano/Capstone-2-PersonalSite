@@ -1,0 +1,54 @@
+.profile-img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #dbe2ef, #112d4e, #3f72af);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#Introduction p {
+  font-family: "Noto Serif", serif;
+}
+
+#Introduction .first-name {
+  font-size: 50pt;
+}
+#Introduction .highlight {
+  font-size: 50pt;
+}
+#About h2 {
+  color: #3f72af;
+  font-family: "Noto Serif", serif;
+}
+
+#About .highlight {
+  font-weight: bold;
+}
+
+#Resume-Page h2 {
+  color: #3f72af;
+  font-family: "Noto Serif", serif;
+}
+
+#Contact img {
+  height: 30px;
+}
+
+#Contact p {
+  font-size: 15pt;
+}
